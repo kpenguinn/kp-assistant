@@ -1,0 +1,27 @@
+[
+  {
+    "type": "gmail_oauth",
+    "name": "personal-gmail",
+    "client_secret_file": "~/.kp_assistant/google_client_secret.json",
+    "token_file": "~/.kp_assistant/google_personal_token.json",
+    "query": "in:inbox"
+  },
+  {
+    "type": "imap",
+    "name": "personal-imap",
+    "host": "imap.gmail.com",
+    "port": 993,
+    "username": "you@gmail.com",
+    "password_env": "PERSONAL_EMAIL_APP_PASSWORD",
+    "mailbox": "INBOX"
+  },
+  {
+    "type": "imap",
+    "name": "work-imap",
+    "host": "outlook.office365.com",
+    "port": 993,
+    "username": "you@company.com",
+    "password_env": "WORK_EMAIL_APP_PASSWORD",
+    "mailbox": "INBOX"
+  }
+]
